@@ -13,6 +13,8 @@
 		115431011F42948700D45042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115430FF1F42948700D45042 /* Main.storyboard */; };
 		115431031F42948700D45042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115431021F42948700D45042 /* Assets.xcassets */; };
 		115431061F42948700D45042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115431041F42948700D45042 /* LaunchScreen.storyboard */; };
+		1154310F1F42956900D45042 /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = 1154310E1F42956900D45042 /* Photos.m */; };
+		115431121F429D4600D45042 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 115431111F429D4600D45042 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		115431021F42948700D45042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		115431051F42948700D45042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		115431071F42948700D45042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1154310D1F42956900D45042 /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		1154310E1F42956900D45042 /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
+		115431101F429D4600D45042 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		115431111F429D4600D45042 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			children = (
 				115430F91F42948700D45042 /* AppDelegate.h */,
 				115430FA1F42948700D45042 /* AppDelegate.m */,
+				1154310D1F42956900D45042 /* Photos.h */,
+				1154310E1F42956900D45042 /* Photos.m */,
 				115430FC1F42948700D45042 /* ViewController.h */,
 				115430FD1F42948700D45042 /* ViewController.m */,
 				115430FF1F42948700D45042 /* Main.storyboard */,
@@ -67,6 +75,8 @@
 				115431041F42948700D45042 /* LaunchScreen.storyboard */,
 				115431071F42948700D45042 /* Info.plist */,
 				115430F61F42948700D45042 /* Supporting Files */,
+				115431101F429D4600D45042 /* CollectionViewCell.h */,
+				115431111F429D4600D45042 /* CollectionViewCell.m */,
 			);
 			path = "Cats(*P)";
 			sourceTree = "<group>";
@@ -150,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1154310F1F42956900D45042 /* Photos.m in Sources */,
+				115431121F429D4600D45042 /* CollectionViewCell.m in Sources */,
 				115430FE1F42948700D45042 /* ViewController.m in Sources */,
 				115430FB1F42948700D45042 /* AppDelegate.m in Sources */,
 				115430F81F42948700D45042 /* main.m in Sources */,
